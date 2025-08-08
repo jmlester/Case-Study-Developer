@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal design tokens */
+:root { --accent:#2563eb; }
+.accent { color: var(--accent); }
+.btn { @apply px-3 py-2 border rounded hover:bg-gray-50; }
+.card { @apply border rounded-lg bg-white p-4; }
+.pill { @apply text-xs px-2 py-0.5 rounded bg-gray-100; }
